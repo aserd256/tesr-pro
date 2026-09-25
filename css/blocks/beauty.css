@@ -1,0 +1,35 @@
+.beauty {
+    margin: 0 0 80px;
+    padding: 0;
+}
+
+
+.beauty__heading {
+    
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto 24px;
+}
+
+.beauty__text {
+    width: 700px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 32px;
+}
+
+.beauty__img {
+height: 100vh;
+margin: 0 auto;
+}
+
+
+

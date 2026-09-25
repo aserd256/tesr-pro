@@ -1,0 +1,61 @@
+.adventure {
+    margin: 0 0 0;
+    padding: 0 0 80px 0;
+}
+
+.adventure__info {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 100px;
+    align-items: center;
+}
+
+.adveneture__heading {
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    color:#204186;
+    margin: 0 0 16px;
+}
+
+.adveture__text {
+    display: block;
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #204186;
+ }
+
+.adventure__card {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 36px;
+}
+
+.adventure__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 81px ;
+}
+
+.adventure__card-item {
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.benefit--round-top {
+     border-radius: 180px 180px 0 0;
+    border: 2px solid #FFFFFF;
+}

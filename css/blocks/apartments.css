@@ -1,0 +1,111 @@
+.apartments {
+  padding: 80px 0 80px;
+}
+
+.apartments__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 220px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.apartments__icon {
+  display: flex;
+}
+
+.apartments__icon,
+.apartments__description {
+  margin: 0 0 32px;
+}
+
+.apartments__description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.apartments__text {
+  margin: 0 0 16px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.apartments__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin: 0;
+  padding: 0 0 0 16px;
+}
+
+.apartments__list-item {
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.apartments__content {
+width: 420px;
+margin: 0 auto;
+}
+
+.apartments--reverse {
+  padding: 0 0 80px;
+}
+
+.apartments--reverse .benifit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 173px 0 0;
+}
+
+.apartments--reverse .apartments__wrapper {
+    grid-template-columns:  360px 1fr;
+    margin: 0;
+    padding: 0;
+  }
+
+.apartments__heading {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "Ardeco", "Arial", sans-serif;
+    margin: 0 0 24px 0;
+}
+
+ .apartments__description {
+      width: 420px;
+    font-family: "Montserrat", "Arial" ,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0 0 16px 0;
+}
+
+.apartments__link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+ .apartments__link-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.apartments--reverse .apartments__content {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .apartments--reverse .apartments__list {
+    margin: 0 0 32px 0;
+   }

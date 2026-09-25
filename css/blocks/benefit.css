@@ -1,0 +1,48 @@
+.benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 480px;
+  border-radius: 180px;
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+}
+
+.benefit--apartments {
+  background-image: url("../../images/image-apartment.jpg");
+}
+
+.benefit__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 0 24px ;
+}
+
+.benefit__number {
+  font-family: "Ardeco", "Arial", sans-serif;
+  margin: 0 0 16px;
+  font-size: 80px;
+  line-height: 60px;
+}
+
+.benefit--silance {
+     background-image: url("../../images/pond.png");
+     background-repeat: no-repeat;
+     width: 360px;
+}
+
+.benefit--adventure {
+ background-image: url("../../images/adventure-home.jpg");
+ width: 360px;
+ height: 480px;
+ 
+}
+
+.benefit--round {
+   border-radius: 180px 180px 0 0;
+}
+
